@@ -3,7 +3,9 @@
 # muestre por pantalla la cantidad de dígitos que tiene.
 
 # entrada       salida
-# 4             1   
+# 4             1
+# -4525         4
+# 0             1   
 # 24            2
 # 334589        6
 # 9876543210    10

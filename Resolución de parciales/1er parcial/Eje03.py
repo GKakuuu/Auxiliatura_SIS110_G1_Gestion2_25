@@ -8,7 +8,14 @@ from math import log10
 a = int(input("introducir el primer numero: "))
 b = int(input("introducir el segundo numero: "))
 
-mayor = max(a , b)
+if a > b:
+    mayor = a
+else:
+    mayor = b
+
+# mayor = a if a > b else b
+
+# mayor = max(a , b)
 
 cant_digitos = int(log10(mayor)) + 1
 divisor = 10 ** (cant_digitos - 1)

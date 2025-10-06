@@ -8,8 +8,6 @@
 # 334589        334 589
 # 9876543210    98765   43210
 
-# trabajar sin strings, trabajar con matematicas (logaritmos, divisiones, modulos)
-
 from math import log10
 
 num = int(input("Ingrese un numero entero: "))
